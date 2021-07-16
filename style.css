@@ -1,0 +1,552 @@
+#home {
+    background-image: url(img/Home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: padding-box;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+    min-height: 570px;
+}
+
+#home-content {
+    background-color: black;
+    position: absolute;
+    opacity: .7;
+    height: 570px;
+    width: 100%;
+    padding-top: 130px;
+    display: table;
+}
+
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h1 {
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    display: inline-block;
+
+}
+
+#home-heading h1 span {
+    color:  #00bff3;
+    font-weight: 600;
+}
+
+
+#home-text p {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+   
+}
+#home-text p span {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+#services {
+    background-color: whitesmoke;
+    padding-top: 0px;
+    
+}
+.heading h2{
+    font-size: 32pt;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    color: black;
+}
+.service{
+    margin: 35px 0;
+}
+.service .icon{
+    font-size: 42px;
+    margin: 10px 10px 10px 5px;
+}
+.service:hover .icon{
+    color: mediumblue;
+}
+.service p {
+    font-size: 16px;
+}
+#carrd {
+    background-color: whitesmoke;
+    padding-top: 0px;
+    
+}
+.cardhead h2{
+    font-size: 32pt;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    color: black;
+}
+
+
+
+.heading-work{
+    padding: 20px 0px 20px 20px;
+}
+#isotope-filters{
+    margin-bottom: 10px;
+    padding: 20px 0px 10px 50px;
+}
+#isotope-filters button{
+   font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 30px;
+}
+#isotope-filters button span{
+    display: block;
+    padding: 5px;
+    
+}
+#isotope-filters button.active span{
+    border-bottom: 3px solid black;
+}
+#Logo a img{
+    height: 120px;
+    width: 70%;
+    margin: 13px 15px 13px 15px;
+}
+#Logo a {
+    text-decoration: none;
+}
+#Logo a h3{
+    font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
+
+#work{
+    background-color: whitesmoke;
+}
+
+#Laptop{
+    background-color: whitesmoke;
+}
+.heading-Laptop{
+    padding: 50px 0px 20px 20px;
+}
+.Laptop a img{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+#isotope-container a {
+    text-decoration: none;
+}
+.col-md-3 h3{
+    text-align: center;
+    font-size: 20pt;
+    height: 80px;
+}
+
+.ct-footer {
+    background-color: black;
+    padding-top: 0px;
+    position: relative;
+}
+
+.ct-footer-list {
+    padding: 50px 0;
+    list-style: none;
+    padding-left: 0;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ct-footer-list > li .ct-footer-list-header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #00bff3;
+    font-size: 25px;
+}
+
+.ct-footer-list > li ul {
+    padding-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.ct-footer-list > li ul li {
+    color: #fff;
+}
+
+.ct-footer-list > li ul li a {
+    color: #fff;
+}
+
+.ct-footer-list > li ul li a:hover,
+.ct-footer-post a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* Media Queries */
+
+@media (min-width:1200px) {
+
+    .ct-footer-list > li {
+        width: 20%;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .ct-footer-list > li:last-child {
+        width: 7%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .ct-footer-list > li {
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1199px) {
+    .ct-footer-list > li {
+        width: 50%;
+    }
+}
+
+@media (min-width: 480px) and (max-width:767px) {
+    .ct-footer-list > li {
+        width: 50%;
+    }
+}
+
+@media (max-width:479px) {
+
+    .ct-footer-list > li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ct-footer-list {
+        padding: 20px 0;
+    }
+
+}
+
+.abcc {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+----
+#Name-heading {
+    
+    
+}#Name-heading h2{
+    padding: 30px 0 0 10px;
+    
+}
+#Name-heading h3{
+    padding: 10px 0 20px 10px;
+    font-size: 15pt;
+    
+}
+.Info-left img{
+    margin-top: 30px;
+}
+
+.Info-right {
+    margin-top: 30px;
+}
+.Info-right h3{
+    margin-top: 40px;
+    font-size: 16pt;
+}
+.disp p{
+    padding-top: 30px;
+}
+.disp h1{
+    padding: 10px 0px 10px 10px;
+}
+.hh h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#related h2{
+    margin: 20px;
+    padding: 10px 0 20px 0 ;
+   font-family: sans-serif;
+    font-size: 20pt;
+}
+#related {
+}
+#related a img{
+    align-content: center;
+    height: 200px;
+    width: 250px;
+    padding: 0px 0px 0px 22px;
+}
+#related a h3{
+font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#related a h3:hover{
+    text-decoration: none;
+}#related h2{
+    margin: 20px;
+    padding: 10px 0 20px 0 ;
+   font-family: sans-serif;
+    font-size: 20pt;
+}
+#related {
+}
+#related a img{
+    align-content: center;
+    height: 200px;
+    width: 250px;
+    padding: 0px 0px 0px 22px;
+}
+#related a h3{
+font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#related a h3:hover{
+    text-decoration: none;
+}
+#flowchart h2{
+    margin: 20px;
+    padding: 10px 0 20px 0 ;
+   font-family: sans-serif;
+    font-size: 20pt;
+}
+.brandimg{
+    padding: 20px;
+}
+#flowchart {
+}
+#flowchart a img{
+    align-content: center;
+    height: 200px;
+    width: 250px;
+    padding: 0px 0px 0px 22px;
+}
+#flowchart a h3{
+font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#flowchart a h3:hover{
+    text-decoration: none;
+}
+
+#linkchart h2{
+    margin: 20px;
+    padding: 10px 0 20px 0 ;
+   font-family: sans-serif;
+    font-size: 20pt;
+}
+.heading h3{
+    color: black;
+    margin: 0px 0 25px 20px ;
+    font-size: 20pt;
+}
+
+#linkchart a img{
+    align-content: center;
+    height: 200px;
+    width: 300px;
+    padding: 0px 0px 0px 22px;
+}
+#linkchart a h3{
+font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#linkchart a h3:hover{
+    text-decoration: none;
+}
+#flowchart {
+}
+#modelchart a img{
+    align-content: center;
+   height: 150px;
+    width: 330px;
+    padding: 20px;
+    
+}
+#pcchart a img{
+    align-content: center;
+   height: 200px;
+    width: 330px;
+    padding: 30px;
+    
+}
+#pcchart a h3{
+font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#modelchart a h3{
+font-family: sans-serif;
+    font-size: 15pt;
+    height: 70px;
+    width: 90%;
+   margin: 10px 0px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#modelchart a h3:hover{
+    text-decoration: none;
+}
+#tagchart a img{
+    height: 70px;
+    width: 100%;
+    
+}
+#tagchart h3{
+    margin-top: 35px;
+    font-size: 17pt
+}
+#tagchart h3 span {
+    font-family: sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+.googlepolicy h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25pt;
+    padding: 10px 0px 0px 20px ;   
+}
+.googlepolicy h3 {
+    font-family: sans-serif;
+    font-size: 20pt;
+    padding: 10px 0px 0px 25px ;   
+}
+.googlepolicy p {
+    font-family: sans-serif;
+    font-size: 13pt;
+    padding: 0px 0px 0px 35px ;   
+}
+.googlepolicy ul  {
+    font-family: sans-serif;
+    font-size: 13pt;
+    padding: 0px 0px 0px 55px ;   
+}
+.developer-details h2 {
+    font-family: cursive;
+    text-align: center;
+    padding: 20px 0 20px 0 ;
+}
+.developer-details p {
+    font-family:sans-serif ;
+    font-size: 16pt;
+     padding: 0px 0 20px 30px ;
+}
+.details  {
+    text-align: center;
+    align-content: center;
+    height: 440px;
+}
+.details h4{
+       margin: 15px 0 0px 0 ;
+ 
+}
+.details h4 span{
+    font-size: 15pt
+ 
+}
+.details a{
+ text-decoration: none;
+    color: black;
+    font-size: 13pt
+}
+.details a:hover{
+ text-decoration: none;
+}
+.details a span:hover{
+ color: #BE299F;
+}
+.mail:hover{
+    color: #9F3126;
+}
+#brandname{}
+#brandname h3{
+    padding-top: 40px;
+    margin: 10px;
+}
+.brands{
+    margin-top: 20px;
+}
+.vbutton a{
+ text-decoration: none;
+    color: white;
+}
+.vbutton a:hover{
+ text-decoration: none;
+    color: white;
+}
+#Sidebrand{}
+
+#Sidebrand ul{
+    padding-top: 40px;
+    list-style: none;
+}
+#Sidebrand ul li{
+    font-size: 19pt;
+    font-family: sans-serif;
+    text-align:center;
+    font-size: 20pt;
+}
+#Sidebrand ul li a{
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: 700;
+    padding-top: 0px;
+}
+#Sidebrand ul li a span{
+    color: #C3043A;
+        font-size: 20pt;
+   
+}
+#adds{
+    padding: 20px;
+}

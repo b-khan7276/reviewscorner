@@ -1,0 +1,269 @@
+#home {
+    background-image: url(img/Home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: padding-box;
+    background-size: cover;
+    height: 540px;
+    width: 100%;
+    min-height: 540px;
+}
+
+#home-content {
+    background-color: black;
+    position: absolute;
+    opacity: .7;
+    height: 550px;
+    width: 100%;
+    padding-top: 130px;
+    display: table;
+}
+
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h1 {
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    display: inline-block;
+
+}
+
+#home-heading h1 span {
+    color:  #00bff3;
+    font-weight: 600;
+}
+
+#home-text p {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 60px 0px 60px;
+}
+#home-text p span {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+#services {
+    background-color: whitesmoke;
+    
+}
+.heading h2{
+    font-size: 30pt;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    color: black;
+}
+.service{
+    margin: 35px 0;
+}
+.service .icon{
+    font-size: 42px;
+    margin: 20px 0px 0px 10px;
+}
+.service:hover .icon{
+    color: mediumblue;
+}
+.service p {
+    font-size: 16px;
+}
+.heading-work{
+    padding: 20px 0px 20px 20px;
+}
+#isotope-filters{
+    margin-bottom: 10px;
+    padding: 20px 0px 10px 50px;
+}
+#isotope-filters button{
+   font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 30px;
+}
+#isotope-filters button span{
+    display: block;
+    padding: 5px;
+    
+}
+#isotope-filters button.active span{
+    border-bottom: 3px solid black;
+}
+#isotope-container a img{
+    height: 230px;
+    margin: 20px;
+}
+#isotope-container a {
+    text-decoration: none;
+}
+.col-md-3 h3{
+    text-align: center;
+    font-size: 20pt;
+    height: 80px;
+
+
+
+}
+
+#work{
+    background-color: whitesmoke;
+}
+
+#Laptop{
+    background-color: whitesmoke;
+}
+.heading-Laptop{
+    padding: 50px 0px 20px 20px;
+}
+.Laptop a img{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+#isotope-container a {
+    text-decoration: none;
+}
+.col-md-3 h3{
+    text-align: center;
+    font-size: 20pt;
+    height: 80px;
+}
+
+.ct-footer {
+    background-color: black;
+    padding-top: 0px;
+    position: relative;
+}
+
+.ct-footer-list {
+    padding: 50px 0;
+    list-style: none;
+    padding-left: 0;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ct-footer-list > li .ct-footer-list-header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #00bff3;
+    font-size: 25px;
+}
+
+.ct-footer-list > li ul {
+    padding-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.ct-footer-list > li ul li {
+    color: #fff;
+}
+
+.ct-footer-list > li ul li a {
+    color: #fff;
+}
+
+.ct-footer-list > li ul li a:hover,
+.ct-footer-post a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* Media Queries */
+
+@media (min-width:1200px) {
+
+    .ct-footer-list > li {
+        width: 20%;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .ct-footer-list > li:last-child {
+        width: 7%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .ct-footer-list > li {
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1199px) {
+    .ct-footer-list > li {
+        width: 50%;
+    }
+}
+
+@media (min-width: 480px) and (max-width:767px) {
+    .ct-footer-list > li {
+        width: 50%;
+    }
+}
+
+@media (max-width:479px) {
+
+    .ct-footer-list > li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ct-footer-list {
+        padding: 20px 0;
+    }
+
+}
+
+.abcc {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+----
+#Name-heading {
+    
+    
+}#Name-heading h2{
+    padding: 30px 0 0 10px;
+    
+}
+#Name-heading h3{
+    padding: 10px 0 20px 10px;
+    font-size: 15pt;
+    
+}
+.Info-left img{
+    margin-top: 30px;
+}
+
+.Info-right {
+    margin-top: 30px;
+}
+.Info-right h3{
+    margin-top: 10px;
+    font-size: 16pt;
+}
+.disp p{
+    padding-top: 30px;
+}
+.disp h1{
+    padding: 10px 0px 10px 10px;
+}
+.hh h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
